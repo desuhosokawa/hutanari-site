@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>国際ふたなり学融合学際研究機構</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <img src="logo.png" alt="機関ロゴ" class="logo" />
+    <h1>国際ふたなり学融合学際研究機構</h1>
+    <h2>〜 境界を超えた知の探求 〜</h2>
+
+    <button onclick="toggleMusic()">🎵 BGM再生 / 停止</button>
+    <audio id="bgm" loop>
+      <source src="futanari_anthem.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="quote">
+      <p id="wisdom">「格言を読み込み中...」</p>
+    </div>
+
+    <footer>
+      <p>© 2025 Futanari Institute of Transdisciplinary Studies</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
